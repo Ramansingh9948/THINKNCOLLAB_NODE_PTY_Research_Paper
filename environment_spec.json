@@ -1,0 +1,21 @@
+{
+  "system": {
+    "os": "macOS Sonoma 14.5 (Darwin arm64)",
+    "cpu": "Apple M-Series Silicon Processor",
+    "ram": "16 GB Unified Memory",
+    "architecture": "arm64"
+  },
+  "runtime": {
+    "node_version": "v20.11.0",
+    "socket_io_version": "v4.7.2",
+    "xterm_js_version": "v5.3.0",
+    "mongodb_version": "v7.0.5"
+  },
+  "benchmark_parameters": {
+    "local_loopback_url": "http://127.0.0.1:3099/thinknsh",
+    "aws_public_ec2_ip": "13.201.46.152:3001",
+    "iterations_per_tier": 100,
+    "timing_method": "performance.now() (nanosecond-resolution high-res timer)",
+    "payload_size_bytes": 560
+  }
+}
